@@ -11,9 +11,7 @@ Template.task.events({
       $set: { checked: ! this.checked },
     });
   },
-
   'click .delete'() {
     Tasks.remove(this._id);
   },
 });
-
